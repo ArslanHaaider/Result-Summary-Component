@@ -1,55 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Results summary component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-<main>
-  <div class="left-section block">
-      <span class="left-heading block">
-        Your Result
-      </span>
-      <span class="total-score block">
-        76 <span class="out-off block">
-          of 100
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="left-section block">
+        <span class="left-heading block"> Your Result </span>
+        <span class="total-score block">
+          76 <span class="out-off block"> of 100 </span>
         </span>
-      </span>
-      <span class="sub-heading block">
-        Great
-      </span>
-      <span class="comments block" >
-        You scored higher than 65% of the people who have taken these tests
-      </span>
-  </div>
-  <div class="right-section">
-      <span class="righ-heading">
-        Summary
-      </span>
-      <ul class="summary-cards">
-        <li><img src="./assets/images/icon-reaction.svg" alt=""> Reaction <strong>80</strong>/100</li>
-        <li><img src="./assets/images/icon-memory.svg" alt=""> Memory <strong>92</strong>/100</li>
-        <li><img src="./assets/images/icon-verbal.svg" alt=""> Verbal <strong>61</strong>/100</li>
-        <li><img src="./assets/images/icon-visual.svg" alt=""> Visual <strong>72</strong>/100</li>
-      </ul>
-      <button class="continue">
-        Continue
-      </button>
-  </div>
-</main>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Arslan Haider</a>.
-  </div>
-</body>
+        <span class="sub-heading block"> Great </span>
+        <span class="comments block">
+          You scored higher than 65% of the people who have taken these tests
+        </span>
+      </div>
+      <div class="right-section">
+        <span class="right-heading"> Summary </span>
+        <ul class="summary-cards">
+          <li>
+            <span class="icon-title"
+              ><img
+                src="./assets/images/icon-reaction.svg"
+                alt=""
+              /> Reaction </span
+            ><strong>80</strong>/100
+          </li>
+          <li>
+            <span class="icon-title"
+              ><img src="./assets/images/icon-memory.svg" alt="" />
+               Memory </span
+            ><strong>92</strong>/100
+          </li>
+          <li>
+            <span class="icon-title">
+              <img src="./assets/images/icon-verbal.svg" alt="" /> Verbal </span
+            ><strong>61</strong> /100
+          </li>
+          <li>
+            <span class="icon-title"
+              ><img src="./assets/images/icon-visual.svg" alt="" />
+               Visual </span
+            ><strong>72</strong>/100
+          </li>
+        </ul>
+        <button class="continue">Continue</button>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Arslan Haider</a>.
+    </div>
+  </body>
 </html>

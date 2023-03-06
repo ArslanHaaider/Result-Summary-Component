@@ -31,16 +31,7 @@ main{
     padding: 50px;
     border-radius: 10%;
  }
-.right-section{
-    text-align: center;
-    border: 3px solid black ;
-    border-width: 3px 3px 3px 0px;
-    height: 80%;
-    width: 30%;
-    padding: 50px;
-    border-radius: 0 10% 10% 0;
-}
- 
+
 .comments{
     text-align: center;
     width: 90%;
@@ -63,4 +54,46 @@ main{
 .out-off{
     font-size: 15px;
     margin-top: 20px;
+}
+
+
+/* right card styling  */
+.right-section{
+    text-align: center;
+    border: 3px solid black ;
+    border-width: 3px 3px 3px 0px;
+    height: 80%;
+    width: 30%;
+    padding: 50px;
+    border-radius: 0 10% 10% 0;
+}
+
+.right-heading{
+    width: 100%;
+    margin: auto;
+}
+
+.summary-cards{
+    width: 100%;
+    margin-top:100px;
+}
+.summary-cards li{
+    margin-top: 30px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-title{
+    margin-right: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-title img{
+    margin-right: 30px;
+}
+.continue{
+    margin-top:100px
 }
