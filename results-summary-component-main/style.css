@@ -3,12 +3,21 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: 'text';
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'paragraph';
+    src: url(./assets/fonts/static/HankenGrotesk-Medium.ttf);
+}
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    font-family: 'paragraph';
 }
 main{
     height: 70vh;
@@ -25,17 +34,21 @@ main{
 }
 .left-section{
     text-align: center;
-    border: 3px solid black ;
+    /* border: 3px solid black ; */
     height: 80%;
     width: 30%;
     padding: 50px;
     border-radius: 10%;
+    color: white;
+    background: rgb(122,39,201);
+    background: radial-gradient(circle, rgba(122,39,201,1) 6%, rgba(74,0,227,1) 97%);   
  }
 
 .comments{
     text-align: center;
     width: 90%;
-    margin: auto;
+    margin: auto;   
+    font-family: 'paragraph';
 }
 .sub-heading{
     margin: auto;
@@ -45,10 +58,12 @@ main{
 }
 .total-score{
     font-size: 50px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 60px;
     height: 120px;
     width: 120px;
+    background-color: #470CEB;
+    font-family: 'text';
     margin: auto;
 }
 .out-off{
@@ -70,7 +85,9 @@ main{
 
 .right-heading{
     width: 100%;
-    margin: auto;
+    font-size: x-large;
+    border: 1px solid black ;
+    margin-top: -auto;
 }
 
 .summary-cards{
@@ -80,20 +97,42 @@ main{
 .summary-cards li{
     margin-top: 30px;
     list-style: none;
-    text-align: center;
+    width: 300px;
+    border: 1px solid black;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .icon-title{
-    margin-right: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
+    margin-right: 20px;
+    /* margin-top: 10px; */
+    width: 50%;
+    /* border: 1px solid orange; */
+    display: inline-flex;
+    justify-content: center;
+
+}
+.summary-cards:nth-child(1){
+    background-color: gold;
 }
 .icon-title img{
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .continue{
-    margin-top:100px
+    margin-top:100px;
+    background-color: #5b23f5;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 400px;
+}
+.red{
+    color: rgb(243, 26, 26);
+}
+.green{
+    color: rgb(102, 238, 102);
+}
+.yellow{
+    color: rgb(255, 215, 35);
+}
+.purple{
+    color: #5b23f5;
 }
