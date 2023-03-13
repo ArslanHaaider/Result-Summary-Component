@@ -41,7 +41,8 @@ main{
     border-radius: 10%;
     color: white;
     background: rgb(122,39,201);
-    background: radial-gradient(circle, rgba(122,39,201,1) 6%, rgba(74,0,227,1) 97%);   
+    background: radial-gradient(circle, rgba(122,39,201,1) 6%, rgba(74,0,227,1) 97%); 
+    margin-left: 100px;
  }
 
 .comments{
@@ -62,7 +63,8 @@ main{
     border-radius: 60px;
     height: 120px;
     width: 120px;
-    background-color: #470CEB;
+    background: rgb(101,0,198);
+    background: linear-gradient(184deg, rgba(101,0,198,1) 53%, rgba(122,39,201,1) 97%); 
     font-family: 'text';
     margin: auto;
 }
@@ -75,64 +77,100 @@ main{
 /* right card styling  */
 .right-section{
     text-align: center;
-    border: 3px solid black ;
+    /* border: 3px solid black ; */
     border-width: 3px 3px 3px 0px;
     height: 80%;
     width: 30%;
     padding: 50px;
     border-radius: 0 10% 10% 0;
+    box-shadow: 8px 6px 15px -6px rgba(0,0,0,0.64);
 }
 
 .right-heading{
     width: 100%;
+    height: 3rem;
     font-size: x-large;
-    border: 1px solid black ;
-    margin-top: -auto;
+    /* border: 1px solid black ; */
+    padding: 1px;
+    text-align: left;
+    margin-top: 40px;
 }
 
 .summary-cards{
     width: 100%;
-    margin-top:100px;
-}
-.summary-cards li{
-    margin-top: 30px;
-    list-style: none;
-    width: 300px;
-    border: 1px solid black;
-    display: flex;
-}
-.icon-title{
-    margin-right: 20px;
-    /* margin-top: 10px; */
-    width: 50%;
-    /* border: 1px solid orange; */
-    display: inline-flex;
-    justify-content: center;
+    margin-top:10px;
 
 }
-.summary-cards:nth-child(1){
-    background-color: gold;
+.summary-cards li{
+    margin-top: 2rem;
+    list-style: none;
+    width: 17rem;
+    height: 2.2rem;
+    display: flex;
+    border-radius: 100px;
+    text-align: top;
 }
-.icon-title img{
-    margin-right: 20px;
+.icon-title{
+    margin-right: 50px;
+    /* margin-top: 10px; */
+    /* border: 1px solid black;  */
+    display: inline-flex;
+    width: 100px;   
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+ul li img{
+    /* margin-left:-40px; */
+    /* margin-top: 10px; */
+    /* position:absolute; */
+    width: 20px;
+}
+.score{
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-top: 6px;
+    color: grey;
 }
 .continue{
-    margin-top:100px;
-    background-color: #5b23f5;
+    margin-top:30px;
+    background: rgb(91, 35, 245);
+    background: linear-gradient(184deg, rgb(91, 35, 245) 53%, rgb(142, 90, 245) 97%); 
     width: 200px;
     height: 50px;
     color: white;
     border-radius: 400px;
+    cursor: pointer;
 }
 .red{
     color: rgb(243, 26, 26);
+    text-align: center;
 }
 .green{
     color: rgb(102, 238, 102);
 }
 .yellow{
-    color: rgb(255, 215, 35);
+    color: rgb(238, 205, 61);
 }
 .purple{
     color: #5b23f5;
+}
+
+.summary-cards li:nth-child(1){
+    background-color:rgb(253, 211, 211);
+}
+.summary-cards li:nth-child(3){
+    background-color:rgb(223, 253, 208);
+}
+.summary-cards li:nth-child(2){
+    background-color:rgb(250, 252, 163);
+}
+.summary-cards li:nth-child(4){
+    background-color:rgb(229, 183, 255);
+}
+.summary-cards li .out-off{
+    display: inline-block;
+    margin-bottom: 
 }
