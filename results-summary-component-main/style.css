@@ -12,16 +12,16 @@
     src: url(./assets/fonts/static/HankenGrotesk-Medium.ttf);
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+    /* height: 100vh; */
     font-family: 'paragraph';
 }
 main{
     height: 70vh;
-    width: 70vw;
+    width: 100vw;
     border: 1px solid black;
     display: flex;
     justify-content: center; 
@@ -36,7 +36,7 @@ main{
     text-align: center;
     /* border: 3px solid black ; */
     height: 80%;
-    width: 30%;
+    width: 20%;
     padding: 50px;
     border-radius: 10%;
     color: white;
@@ -80,20 +80,24 @@ main{
     /* border: 3px solid black ; */
     border-width: 3px 3px 3px 0px;
     height: 80%;
-    width: 30%;
+    width: 20%;
     padding: 50px;
     border-radius: 0 10% 10% 0;
     box-shadow: 8px 6px 15px -6px rgba(0,0,0,0.64);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .right-heading{
     width: 100%;
-    height: 3rem;
+    height: 10%;
     font-size: x-large;
     /* border: 1px solid black ; */
     padding: 1px;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
 .summary-cards{
@@ -101,30 +105,31 @@ main{
     margin-top:10px;
 
 }
-.summary-cards li{
-    margin-top: 2rem;
-    list-style: none;
-    width: 17rem;
-    height: 2.2rem;
+ul{
+    /* border: 1px solid black; */
     display: flex;
-    border-radius: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.summary-cards li{
+    margin-top: 10%;
+    list-style: none;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    border-radius: 10px;
     text-align: top;
+    justify-content: space-between;
+    font-size: 100%;
 }
 .icon-title{
-    margin-right: 50px;
-    /* margin-top: 10px; */
-    /* border: 1px solid black;  */
     display: inline-flex;
-    width: 100px;   
+    width: 40%;   
     justify-content: space-around;
     align-items: center;
-    /* margin-top: 10px; */
 }
 ul li img{
-    /* margin-left:-40px; */
-    /* margin-top: 10px; */
-    /* position:absolute; */
-    width: 20px;
+    width: 20%;
 }
 .score{
     /* border: 1px solid black; */
@@ -138,8 +143,8 @@ ul li img{
     margin-top:30px;
     background: rgb(91, 35, 245);
     background: linear-gradient(184deg, rgb(91, 35, 245) 53%, rgb(142, 90, 245) 97%); 
-    width: 200px;
-    height: 50px;
+    width: 90%;
+    height: 10%;
     color: white;
     border-radius: 400px;
     cursor: pointer;
@@ -169,8 +174,4 @@ ul li img{
 }
 .summary-cards li:nth-child(4){
     background-color:rgb(229, 183, 255);
-}
-.summary-cards li .out-off{
-    display: inline-block;
-    margin-bottom: 
 }
